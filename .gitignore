@@ -1,0 +1,4 @@
+# The whole install is committed (large files via Git LFS, see .gitattributes).
+# Only per-run local state is skipped.
+/logs/
+launcher.properties

@@ -1,0 +1,21 @@
+# Rise install manifest
+#
+# Format:  path | url | unzip
+#   path   destination, relative to %APPDATA%\rise
+#   url    absolute, or relative to BASE_URL in the launcher
+#   unzip  true  -> download a zip and extract it INTO path
+#          false -> download the file straight to path
+#
+# IMPORTANT -- a git repository rejects files over 100 MB, and Demise.jar is ~398 MB
+# with the runtime another ~291 MB. Do not commit those. Upload them as GitHub RELEASE
+# assets (2 GB per file is allowed) and point the urls below at the release.
+# Run package-release.ps1 to produce the zips ready to upload.
+#
+# The launcher reads a manifest.txt sitting next to it first, and only falls back to
+# BASE_URL if there is none. That means this file also works for a local/offline install.
+
+Demise.jar|https://github.com/CHANGE-ME/rise/releases/download/v1/Demise.jar|false
+java|https://github.com/CHANGE-ME/rise/releases/download/v1/java.zip|true
+assets|https://github.com/CHANGE-ME/rise/releases/download/v1/assets.zip|true
+natives|https://github.com/CHANGE-ME/rise/releases/download/v1/natives.zip|true
+data|https://github.com/CHANGE-ME/rise/releases/download/v1/data.zip|true
