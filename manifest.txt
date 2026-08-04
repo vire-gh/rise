@@ -16,6 +16,6 @@
 
 Demise.jar|https://github.com/vire-gh/rise/releases/download/v1/Demise.jar|false
 java|https://github.com/vire-gh/rise/releases/download/v1/java.zip|true
-assets|https://github.com/vire-ghE/rise/releases/download/v1/assets.zip|true
+assets|https://github.com/vire-gh/rise/releases/download/v1/assets.zip|true
 natives|https://github.com/vire-gh/rise/releases/download/v1/natives.zip|true
 data|https://github.com/vire-gh/rise/releases/download/v1/data.zip|true
