@@ -14,8 +14,8 @@
 # The launcher reads a manifest.txt sitting next to it first, and only falls back to
 # BASE_URL if there is none. That means this file also works for a local/offline install.
 
-Demise.jar|https://github.com/CHANGE-ME/rise/releases/download/v1/Demise.jar|false
-java|https://github.com/CHANGE-ME/rise/releases/download/v1/java.zip|true
-assets|https://github.com/CHANGE-ME/rise/releases/download/v1/assets.zip|true
-natives|https://github.com/CHANGE-ME/rise/releases/download/v1/natives.zip|true
-data|https://github.com/CHANGE-ME/rise/releases/download/v1/data.zip|true
+Demise.jar|https://github.com/vire-gh/rise/releases/download/v1/Demise.jar|false
+java|https://github.com/vire-gh/rise/releases/download/v1/java.zip|true
+assets|https://github.com/vire-ghE/rise/releases/download/v1/assets.zip|true
+natives|https://github.com/vire-gh/rise/releases/download/v1/natives.zip|true
+data|https://github.com/vire-gh/rise/releases/download/v1/data.zip|true
